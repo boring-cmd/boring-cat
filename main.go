@@ -40,7 +40,7 @@ func main() {
 	if Word != "" {
 		words = append(words, Word)
 	}
-	rand.Seed(time.Now().Unix()) //Seed生成的随机数
+	rand.Seed(time.Now().Unix())
 	i := random(1, len(words))
 	if i > len(words) {
 		i = len(words) - 1
