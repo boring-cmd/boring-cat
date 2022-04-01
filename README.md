@@ -4,7 +4,7 @@ And you have a boring cat
 
 ## Build
 ```
-go build -o
+go build -o cat
 
 ./cat
 ```
